@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="static\styles.css">    
+<title> Data page </title> 
+</head>
+
+<body>
+<h1> Here is some medication data </h1>
+
+<table>
+    <thead>
+        <tr>
+            <th> Encounter ID </th>
+            <th> Medication Code </th>
+            <th> Delivery Route </th> 
+            <th> Brand </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for data in data.values %}
+        <tr>
+            <td> {{ data[1] }} </td>
+            <td> {{ data[4] }} </td>
+            <td> {{ data[6] }} </td>
+            <td> {{ data[7] }} </td>
+        </tr>
+        {% endfor %}
+    
+    </tbody>
+</table>
+
+</body>
+
+
+
+
+</html>
