@@ -1,6 +1,8 @@
 # azure_flask_deployment
 504 Week 2 Assignment, deploying basic flask application using Microsoft Azure App Services
 
+[Azure Link](sean-wk2-flask.azurewebsites.net)
+
 ## Flask Application
 
 1. Create app.py file, importing flask and pandas. Place these packages in a requirements.txt file
