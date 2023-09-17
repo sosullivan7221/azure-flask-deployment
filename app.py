@@ -7,7 +7,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/hantswilliams/HHA_507_2023/m
 @app.route('/')
 def dataset(data=df):
     data = data.sample(15)
-    return render_template('data.html', data=data)
+    return render_template('home.html', data=data)
 
 if __name__ == '__main__':
     app.run(debug=True, port=8080)
