@@ -11,3 +11,8 @@
 
 ## Azure Deployment
 
+1. Install Azure CLI into your IDE 
+2. Login into Azure using az login --use-device-code
+3. Create a resource group inside of your Azure account which will be used to create the Web App
+4. Create the web app using az webapp up --resource-group <groupname> --name <app-name> --runtime <PYTHON:3.9> --sku <B1>, replacing bracketed terms with the corresponding resource group, app name, python version, and sku 
+
