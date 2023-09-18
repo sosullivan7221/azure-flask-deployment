@@ -1,7 +1,7 @@
 # azure_flask_deployment
 504 Week 2 Assignment, deploying basic flask application using Microsoft Azure App Services
 
-[Azure Link](sean-wk2-flask.azurewebsites.net)
+Azure Link: sean-wk2-flask.azurewebsites.net
 
 ## Flask Application
 
