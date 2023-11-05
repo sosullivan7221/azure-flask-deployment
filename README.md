@@ -19,7 +19,3 @@ Azure Link: sean-wk2-flask.azurewebsites.net
 4. Create the web app using az webapp up --resource-group (groupname) --name (app-name) --runtime (PYTHON:3.9) --sku (B1), replacing bracketed terms with the corresponding resource group, app name, python version, and sku 
 5. Use the link provided on the App Service page to open your web page. Use the log stream to troubleshoot if you have an app failure.
 
-## Notes
-
--Looking at the screenshots, it seems that the CDN usage significantly reduced the loading time of the video. The screenshots look different from the final app, as they were taken before the formatting was changed. However, the content is still the same. The screenshots were taken from the local deployment of the Flask app, however, we can still expect to see a similar difference in response times on the deployed version of the app.
-
